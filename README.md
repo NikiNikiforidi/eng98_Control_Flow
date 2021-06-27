@@ -1,7 +1,7 @@
 #Control flow with if, elif and else conditions
 
 
-## An example of an if loop
+### An example of an if loop
 ```
 weather = "Rainy"
 
@@ -16,8 +16,9 @@ else:
 
 ###  Ticket age example:
 
-age = 18
 ```
+age = 18
+
 if age <= 18:
     print(" You are not eligible to watch this movie ")
 ```
