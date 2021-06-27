@@ -1,18 +1,37 @@
-#
+#Control flow with if, elif and else conditions
 
 
-#### For Loops and While Loops                                                        
+## An example of an if loop
+```
+weather = "Rainy"
+
+if weather == "Rainy":
+    print("Take an umbrella!")
+
+if weather != "Rainy":
+   print("Well it isn't raining..... ENJOY")
+else:
+    print ("Who knows what the weather is going to do....")
+```
+
+###  Ticket age example:
+
+age = 18
+```
+if age <= 18:
+    print(" You are not eligible to watch this movie ")
+```
+
+### For Loops and While Loops                                                        
 - Loops help us iterate through our data, such as lists, dict., and sets etc.
-```                                                                                    
-shopping_list = ["eggs", "apples","milk","bread","butter"]                              
- ```
-
 
 - This loop will stop at before "bread" and will not continue the loop
 ```
-for items in shopping_list:                                                             
-    if items == "bread":                                                                
-        break # Stops the loop                                                          
+                                                                               
+shopping_list = ["eggs", "apples","milk","bread","butter"]            
+for items in shopping_list:           
+    if items == "bread":     
+        break # Stops the loop 
     print(items)
 ```    
 
